@@ -17,7 +17,7 @@ class App extends Component {
   componentDidUpdate(prevProps, prevState){
 
     if(prevState.consulta !== this.state.consulta){
-      this.consultarApi(); 
+      this.consultarApi();  
     }
     
   }
